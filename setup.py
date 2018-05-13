@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 import sys
 
-APT = """sudo apt-get install -y libqt4-test qt4-dev-tools tk-dev python-dev libsasl2-dev libqtgui4 tmux libncursesw5-dev papirus-icon-theme libldap2-dev vim-gtk3 python-pyrex libqtcore4 libc6-dev arc-theme libpq-dev qt4-designer touchpad-indicator gcc build-essential python-opengl libgdbm-dev filezilla libgle3 pkg-config python3-dev python3.6-dev python-pyside.qtopengl libsqlite3-dev libqt4-script libssl-dev libbz2-dev libtool libxml2-dev git idle-python2.7 libqt4-dbus libreadline-gplv2-dev python-qt4-gl python3-lxml libxslt1-dev zsh libqt4-network libffi-dev autoconf libqt4-xml python-qt4 htop ranger caca-utils highlight atool w3m poppler-utils mediainfo xbindkeys"""
+APT = """sudo apt-get install -y libqt4-test qt4-dev-tools tk-dev python-dev libsasl2-dev libqtgui4 tmux libncursesw5-dev papirus-icon-theme libldap2-dev vim-gtk3 python-pyrex libqtcore4 libc6-dev arc-theme libpq-dev qt4-designer touchpad-indicator gcc build-essential python-opengl libgdbm-dev filezilla libgle3 pkg-config python3-dev python3.6-dev python-pyside.qtopengl libsqlite3-dev libqt4-script libssl-dev libbz2-dev libtool libxml2-dev git idle-python2.7 libqt4-dbus libreadline-gplv2-dev python-qt4-gl python3-lxml libxslt1-dev zsh libqt4-network libffi-dev autoconf libqt4-xml python-qt4 htop ranger caca-utils highlight atool w3m poppler-utils mediainfo xbindkeys curl"""
 
 def create_dirs():
     home = Path().home()
